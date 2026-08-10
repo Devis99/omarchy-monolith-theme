@@ -27,9 +27,15 @@ hl.config({
     rounding_power = 0,
     blur = {
       enabled = true,
-      size = 5,
+      size = 8,
       passes = 3,
-      noise = 0.1,
+      noise = 0.035,
+      contrast = 1.05,
+      brightness = 0.75,
+      vibrancy = 0.1,
+      vibrancy_darkness = 0.2,
+      ignore_opacity = true,
+      new_optimizations = true,
     },
     shadow = {
       enabled = false,

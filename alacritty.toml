@@ -1,5 +1,5 @@
 [window]
-opacity = 0.3
+opacity = 0.5
 
 [colors]
 transparent_background_colors = true
@@ -32,6 +32,22 @@ white   = "#e0def4"
 [colors.cursor]
 text   = "#232136"
 cursor = "#e0def4"
+
+[colors.vi_mode_cursor]
+text = "#232136"
+cursor = "#e0def4"
+
+[colors.search.matches]
+foreground = "#232136"
+background = "#f6c177"
+
+[colors.search.focused_match]
+foreground = "#232136"
+background = "#eb6f92"
+
+[colors.footer_bar]
+foreground = "#232136"
+background = "#e0def4"
 
 [colors.selection]
 text = "#e0def4"

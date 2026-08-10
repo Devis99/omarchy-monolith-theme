@@ -1,30 +1,45 @@
 return {
     {
         "bjarneo/aether.nvim",
+        branch = "v3",
         name = "aether",
         priority = 1000,
         opts = {
-            disable_italics = false,
             colors = {
-                -- Monotone shades (base00-base07)
-                base00 = "#232136", -- Base
-                base01 = "#2a273f", -- Surface
-                base02 = "#393552", -- Overlay / selection
-                base03 = "#6e6a86", -- Muted / comments
-                base04 = "#908caa", -- Subtle
-                base05 = "#e0def4", -- Text
-                base06 = "#e0def4", -- Light foreground
-                base07 = "#e0def4", -- Light background
+                bg = "#232136",
+                dark_bg = "#1a1929",
+                darker_bg = "#12111b",
+                lighter_bg = "#2a273f",
 
-                -- Accent colors (base08-base0F)
-                base08 = "#eb6f92", -- Love
-                base09 = "#f6c177", -- Gold
-                base0A = "#ea9a97", -- Rose
-                base0B = "#3e8fb0", -- Pine
-                base0C = "#9ccfd8", -- Foam
-                base0D = "#c4a7e7", -- Iris
-                base0E = "#ea9a97", -- Rose (alt)
-                base0F = "#56526e", -- Highlight high
+                fg = "#e0def4",
+                dark_fg = "#908caa",
+                light_fg = "#e0def4",
+                bright_fg = "#e0def4",
+                muted = "#6e6a86",
+
+                red = "#eb6f92",
+                yellow = "#f6c177",
+                orange = "#f6c177",
+                green = "#3e8fb0",
+                cyan = "#ea9a97",
+                blue = "#9ccfd8",
+                magenta = "#c4a7e7",
+                brown = "#56526e",
+
+                bright_red = "#eb6f92",
+                bright_yellow = "#f6c177",
+                bright_green = "#3e8fb0",
+                bright_cyan = "#ea9a97",
+                bright_blue = "#9ccfd8",
+                bright_magenta = "#c4a7e7",
+
+                accent = "#9ccfd8",
+                cursor = "#e0def4",
+                foreground = "#e0def4",
+                background = "#232136",
+                selection = "#393552",
+                selection_foreground = "#e0def4",
+                selection_background = "#3e8fb0",
             },
         },
         config = function(_, opts)
