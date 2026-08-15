@@ -55,6 +55,6 @@ bright_blue = "#9ccfd8"
 bright_magenta = "#c4a7e7"
 bright_cyan = "#ea9a97"
 # Shared Hyprland/Omarchy Shell border treatment.
-hyprland_active_border = "#c4a7e7 #3e8fb0 45deg"
+hyprland_active_border = "#c4a7e7 #9ccfd8 45deg"
 active_border_color = "#9ccfd8"
 active_tab_background = "#9ccfd8"

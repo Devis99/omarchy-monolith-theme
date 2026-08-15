@@ -2,10 +2,10 @@
 -- Source: omarchy-monolith-theme/hyprland.conf
 
 local activeBorderColor = {
-  colors = { "rgba(c4a7e7ff)", "rgba(3e8fb0ff)" },
+  colors = { "rgba(c4a7e7ff)", "rgba(9ccfd8ff)" },
   angle = 45,
 }
-local inactiveBorderColor = "rgba(6e6a86ff)"
+local inactiveBorderColor = "rgba(56526eff)"
 
 hl.config({
   general = {

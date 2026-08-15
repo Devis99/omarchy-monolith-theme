@@ -20,8 +20,8 @@ size-vertical    = 28
 # Shared Hyprland-derived border tokens. Surface sections reference these so
 # lock, notifications, popups, and menu-style cards stay aligned with the
 # current Hyprland active-border gradient.
-active-border            = "#c4a7e7 #3e8fb0 45deg"
-active-border-foreground = "#c4a7e7 #3e8fb0 45deg"
+active-border            = "#c4a7e7 #9ccfd8 45deg"
+active-border-foreground = "#c4a7e7 #9ccfd8 45deg"
 
 [controls]
 # Shared state tokens for interactive control chrome (buttons, dropdowns,
