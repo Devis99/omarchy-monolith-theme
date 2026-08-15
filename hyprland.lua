@@ -6,8 +6,8 @@ local activeBorderColor = {
   angle = 45,
 }
 local inactiveBorderColor = "rgba(56526eff)"
-local activeShadowColor = "rgba(000000cc)"
-local inactiveShadowColor = "rgba(00000066)"
+local activeShadowColor = "rgba(000000b3)"
+local inactiveShadowColor = "rgba(00000059)"
 
 hl.config({
   general = {
@@ -41,9 +41,9 @@ hl.config({
     },
     shadow = {
       enabled = true,
-      range = 24,
-      render_power = 4,
-      offset = "4 10",
+      range = 8,
+      render_power = 3,
+      offset = "0 0",
       color = activeShadowColor,
       color_inactive = inactiveShadowColor,
     },
