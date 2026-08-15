@@ -44,20 +44,19 @@ hl.config({
 })
 
 hl.curve("bezier01", { type = "bezier", points = { { 0.65, 0 }, { 0.35, 1 } } })
+hl.curve("monolithQuick", { type = "bezier", points = { { 0.15, 0.85 }, { 0.25, 1 } } })
 
-hl.animation({
-  leaf = "windows",
-  enabled = true,
-  speed = 7,
-  bezier = "bezier01",
-})
-hl.animation({
-  leaf = "windowsIn",
-  enabled = true,
-  speed = 7,
-  bezier = "bezier01",
-  style = "slide",
-})
+hl.animation({ leaf = "windows", enabled = true, speed = 3, bezier = "bezier01" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 2.5, bezier = "monolithQuick", style = "popin 85%" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 2, bezier = "monolithQuick", style = "popin 85%" })
+hl.animation({ leaf = "border", enabled = true, speed = 3, bezier = "bezier01" })
+hl.animation({ leaf = "fade", enabled = true, speed = 2.5, bezier = "monolithQuick" })
+hl.animation({ leaf = "fadeIn", enabled = true, speed = 2, bezier = "monolithQuick" })
+hl.animation({ leaf = "fadeOut", enabled = true, speed = 1.8, bezier = "monolithQuick" })
+hl.animation({ leaf = "layers", enabled = true, speed = 2.5, bezier = "monolithQuick" })
+hl.animation({ leaf = "layersIn", enabled = true, speed = 2.5, bezier = "monolithQuick", style = "fade" })
+hl.animation({ leaf = "layersOut", enabled = true, speed = 1.8, bezier = "monolithQuick", style = "fade" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 2.5, bezier = "monolithQuick", style = "slide" })
 
 hl.window_rule({
   name = "windowrule-1",
