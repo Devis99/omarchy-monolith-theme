@@ -9,6 +9,17 @@
 
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 
+/* Monolith is square everywhere (Hyprland rounding = 0, gtk.css has no
+   radius either) - Midnight doesn't expose a radius option, but panels,
+   modals, popups, and buttons all reference these three vars, so
+   overriding them squares off Discord to match. Avatars/status dots use
+   border-radius: 50% directly and are untouched, as intended. */
+:root {
+    --radius-lg: 0px !important;
+    --radius-md: 0px !important;
+    --radius-sm: 0px !important;
+}
+
 body {
     --font: 'figtree';
     --code-font: '';
